@@ -70,7 +70,7 @@
     margin-left: 2px;
 }
 
-/* Orçamento */
+/* Orï¿½amento */
 
 .orcamento {
     width: 100%;
@@ -150,7 +150,7 @@
     line-height: 30px;
 }
 
-.dados-email {
+.orcamento span:nth-of-type(2) {
     margin-bottom: 40px;
 }
 
