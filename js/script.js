@@ -10,3 +10,7 @@ if (window.SimpleSlide) {
         nav: true // se deve ou não mostrar a navegação
     }); 
 }
+
+if (window.SimpleAnime) {
+    new SimpleAnime();
+}
