@@ -10,6 +10,7 @@
     <link rel="stylesheet" href="css/style.css">
 	<link rel="stylesheet" href="css/portfolio.css">
 	<link rel="stylesheet" href="css/responsivo.css">
+	<script>document.documentElement.classList.add("js");</script>
 	<title>Bikcraft - Portifólio</title>
 </head>
 <body>
@@ -36,18 +37,31 @@
 		</div>
 	</section>
 	
-	<section class="container">
+	<section class="container" data-slide="quote">
 		<blockquote class="quote-clientes">
-			<p>"No mundo atual, a contínua expansão de nossa atividade cumpre um papél essencial na formulão de gestão inovadora da qual fazemos parte."</p>
+			<p>“Nada melhor do que dar um rolê com a minha Bikcraft na orla. Essa é a minha companheira mais fiel, nunca me traiu e está sempre a minha disposição.”</p>
+			<cite>Jhony Rato</cite>
+		</blockquote>
+		<blockquote class="quote-clientes">
+			<p>“Aqueles que ainda não possuem uma Bikcraft, não sabem o que estão perdendo. A precisão é absurda e a velocidade transcendental. Nunca vida nada igual.”</p>
+			<cite>Bernardo</cite>
+		</blockquote>
+		<blockquote class="quote-clientes">
+			<p>“Pedalar sempre foi a minha paixão, o que o pessoal da Bikcraft fez foi intensificar o meu amor por esta atividade. Recomendo à todos que amo.”</p>
 			<cite>Barbara Moss</cite>
 		</blockquote>
 	</section>
 	
 	<section class="portifolio">
-		<div class="container">
+		<div class="container" data-slide="portfolio">
 			<ul class="portifolio-lista">
 				<li class="grid-8"><img src="img/portfolio/retro.jpg" alt="Bicileta Retro"></li>
 				<li class="grid-8"><img src="img/portfolio/passeio.jpg" alt="Bicileta Passeio"></li>
+				<li class="grid-16"><img src="img/portfolio/esporte.jpg" alt="Bicileta Esporte"></li>
+			</ul>
+			<ul class="portifolio-lista">
+				<li class="grid-8"><img src="img/portfolio/passeio.jpg" alt="Bicileta Passeio"></li>
+				<li class="grid-8"><img src="img/portfolio/retro.jpg" alt="Bicileta Retro"></li>
 				<li class="grid-16"><img src="img/portfolio/esporte.jpg" alt="Bicileta Esporte"></li>
 			</ul>
 		</div>
@@ -91,6 +105,10 @@
 				<p class="grid-16">Bikcraft 2019 - Alguns direitos reservados.</p>
 			</div>
 		</div>
-    </footer>
+	</footer>
+	
+	<script src="js/simple-slide.js"></script>
+	<script src="js/script.js"></script>
+
 </body>
 </html>
