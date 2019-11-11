@@ -20,6 +20,30 @@
         width: 26px;
         height: 26px;
     }
+
+    /* Produtos */
+
+    .produtos-item h2 {
+        top: -150px;
+        margin-bottom: -56px;
+    }
+
+    .produto-icone {
+        background: #000;
+        padding: 41px 0;
+    }
+
+    .produto-info p {
+        font-size: 14px;
+        line-height: 20px;
+        height: 122px;
+        padding: 20px 30px;
+    }
+
+    .produto-info ul li {  
+        width: 181px;
+        height: 49px;
+    }
     
 }
 
@@ -55,6 +79,10 @@
         border-color: #fff;
     }
 
+    .header_menu ul li a.menu-ativo  {
+        border-color: #fff;
+    }
+
     /* Introdução */
 
     .introducao {
@@ -68,6 +96,12 @@
         font-size: 36px;
     }
 
+      /* Introdução Interna */
+
+    .introducao-interna {
+        margin-top: 0;
+    }
+
     /* Call */
 
     .call {
@@ -78,6 +112,63 @@
 
     .qualidade::after {
         display: none;
+    }
+
+    /* Missão Sobre */
+
+    .missao-sobre p {
+        font-size: 14px;
+        line-height: 20px;
+        padding-right: 0px;
+    }
+
+    .missao-sobre ul li {
+        font-size: 14px;
+        line-height: 25px;
+    }
+
+    /* Produtos */
+
+    .produtos-item h2 {
+        top: -100px;
+        margin-bottom: -68px;
+    }
+    
+    .produto-icone {
+        background: #000;
+        padding: 41px 0;
+    }
+    
+    .produto-info p {
+        font-size: 14px;
+        line-height: 20px;
+        height: auto;
+        padding: 20px 30px;
+    }
+    
+    .produto-info ul li {  
+            width: 149px;
+            height: 49px;
+            font-size: 14px;
+            line-height: 20px;
+            padding-top: 14px;
+    }
+
+    /* Formuçário Orçamento */
+
+    .form {
+        padding-right: 0;
+    }
+
+    .orcamento-dados ul {
+        padding-right: 0;
+    }
+
+    /* Formulário de contato */
+
+    .contato-form {
+        padding-right: 0;
+        margin-bottom: 40px;
     }
 
 }
